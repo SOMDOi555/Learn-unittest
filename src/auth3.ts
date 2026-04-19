@@ -14,5 +14,6 @@ export async function login(email: string, password: string) {
   return {
     id: user.id,
     email: user.email
+    
   }
 }
